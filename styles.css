@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.item {
+  flex: 1 0 30%; /* Flex-grow, Flex-shrink, Flex-basis */
+  min-width: 100px; /* Minimum width for better readability */
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+}
